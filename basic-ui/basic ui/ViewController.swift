@@ -25,8 +25,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func button(sender: UIButton) {
-        label.text = "HELLO WORLD"
+//        label.text = "HELLO WORLD"
+       
+        let text = edit.text
+        label.text = text
     }
-
 }
 
