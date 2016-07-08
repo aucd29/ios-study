@@ -1,18 +1,18 @@
 //
-//  simpletableUITests.m
-//  simpletableUITests
+//  TestTableViewUITests.m
+//  TestTableViewUITests
 //
-//  Created by 최철동 on 2016. 7. 6..
+//  Created by 최철동 on 2016. 7. 7..
 //  Copyright © 2016년 최철동. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface simpletableUITests : XCTestCase
+@interface TestTableViewUITests : XCTestCase
 
 @end
 
-@implementation simpletableUITests
+@implementation TestTableViewUITests
 
 - (void)setUp {
     [super setUp];

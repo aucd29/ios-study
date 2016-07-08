@@ -1,8 +1,8 @@
 //
 //  main.m
-//  simpletable
+//  TestTableView
 //
-//  Created by 최철동 on 2016. 7. 6..
+//  Created by 최철동 on 2016. 7. 7..
 //  Copyright © 2016년 최철동. All rights reserved.
 //
 
