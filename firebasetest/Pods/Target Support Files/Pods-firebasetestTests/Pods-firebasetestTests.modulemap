@@ -1,0 +1,6 @@
+framework module Pods_firebasetestTests {
+  umbrella header "Pods-firebasetestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
