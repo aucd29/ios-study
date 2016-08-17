@@ -102,7 +102,14 @@
 //        mImgView.alpha = 0.5f;
         
         if (mImgView.frame.origin.x == 0) {
-            mImgView.frame = CGRectMake(300, 300, 100, 100);
+//            mImgView.frame = CGRectMake(300, 300, 100, 100);
+//            mImgView.frame.origin.x = 500; // this is not work
+            
+            // horizontal transition
+            CGRect rect = mImgView.frame;
+            rect.origin.x = rect.size.width; // frame 을 직접 access 할 수 없기 때문에
+            mImgView.frame = rect;
+            
         } else {
             mImgView.frame = self.view.frame;
         }
