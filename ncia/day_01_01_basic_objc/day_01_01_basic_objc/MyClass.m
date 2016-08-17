@@ -46,6 +46,11 @@ static int gCount = 0;
     return a + b;
 }
 
+
++ (int) plus2a:(int)a b:(int)b {
+    return a + b;
+}
+
 @end
 
 int getCountClass() {

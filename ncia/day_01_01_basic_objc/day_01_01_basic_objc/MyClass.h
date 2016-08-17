@@ -21,7 +21,7 @@
 + (void) print: (MyClass *) s;
 + (int) getCountClass2;
 + (int) plus: (int) a :(int) b;
-
++ (int) plus2:(int)a  :(int)b;
 @end
 
 int getCountClass();

@@ -40,6 +40,7 @@ int main(int argc, const char * argv[]) {
     NSLog(@"=================================");
     
     NSLog(@"plus : %d", [MyClass plus: 3: 4]);
+    NSLog(@"plus2 : %d", [MyClass plus :3 :4]);
     
     [MyClass print:cls];
     
