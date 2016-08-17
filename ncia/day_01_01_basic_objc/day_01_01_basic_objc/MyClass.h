@@ -13,6 +13,15 @@
     int mValue;
 }
 
+- (int) value;
 - (int) getValue;
+- (void) setValue:(int) value;
+
+// + 는 static 과 같은 개념
++ (void) print: (MyClass *) s;
++ (int) getCountClass2;
++ (int) plus: (int) a :(int) b;
 
 @end
+
+int getCountClass();

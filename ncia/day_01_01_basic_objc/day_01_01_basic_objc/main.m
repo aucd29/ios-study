@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MyClass.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -18,11 +19,29 @@ int main(int argc, const char * argv[]) {
     printf("hello world\n");
     NSLog(@"hello jobs");
     
-//    MyClass* cls = new MyClass();
-//    cls.getValue();
     
+    // new MyClass == [[MyClass alloc] init]
+    // [] 이 function call 에 의미라고 함
+    // alloc == memory 할당
+    // init == constructor call ?
+    MyClass* cls = [[MyClass alloc] init];
+    NSLog(@"obj   : %@", cls);
+    NSLog(@"value : %d", [cls value]);
+    [cls setValue:3];
     
+    NSLog(@"value : %d", cls.value);
+    NSLog(@"value : %d", cls.getValue);
     
+    NSLog(@"=================================");
+    NSLog(@"cls count : %d", [MyClass getCountClass2]);
+    
+    MyClass* cls2 = [[MyClass alloc] init];
+    NSLog(@"cls count : %d", [MyClass getCountClass2]);
+    NSLog(@"=================================");
+    
+    NSLog(@"plus : %d", [MyClass plus: 3: 4]);
+    
+    [MyClass print:cls];
     
     
     return 0;
