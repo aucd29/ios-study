@@ -13,5 +13,17 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         NSLog(@"Hello, World!");
     }
+    
+    // TODO
+    printf("hello world\n");
+    NSLog(@"hello jobs");
+    
+//    MyClass* cls = new MyClass();
+//    cls.getValue();
+    
+    
+    
+    
+    
     return 0;
 }
