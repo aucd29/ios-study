@@ -33,9 +33,10 @@
     mNames  = a2;
     mColors = @[[UIColor redColor], [UIColor greenColor], [UIColor blueColor]];
     
-    for (int i=0; i<mNames.count; ++i) {
-        mPairs[i] = @[mNames[i], mColors[i]];
-    }
+//    for (int i=0; i<mNames.count; ++i) {
+//        mPairs[i] = @[mNames[i], mColors[i]];
+//    }
+    mPairs = a3;
     
     self.view.backgroundColor = [UIColor redColor];
     
@@ -75,7 +76,8 @@
 
 // returns the # of rows in each component..
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
-    return mNames.count;
+//    return mNames.count;
+    return mPairs.count;
 }
 
 //
@@ -85,7 +87,8 @@
 - (nullable NSString *)pickerView:(UIPickerView *)pickerView
                       titleForRow:(NSInteger)row
                      forComponent:(NSInteger)component {
-    return mNames[row];
+//    return mNames[row];
+    return mPairs[row][0];
 }
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
@@ -99,7 +102,8 @@
 //            default: bgColor = [UIColor redColor];    break;
 //        }
         
-        bgColor = mColors[row];
+//        bgColor = mColors[row];
+        bgColor = mPairs[row][1];
 
     } else {
 //        switch (row) {
@@ -109,7 +113,9 @@
 //            default: pcBgColor = [UIColor redColor];    break;
 //        }
         
-        pcBgColor = mColors[row];
+//        pcBgColor = mColors[row];
+        pcBgColor = mPairs[row][1];
+
     }
     
     self.view.backgroundColor = bgColor;
