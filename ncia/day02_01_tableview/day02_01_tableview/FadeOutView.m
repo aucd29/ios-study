@@ -20,7 +20,8 @@
 
 - (instancetype) initWithFrame:(CGRect)frame {
     if (self == [super initWithFrame:frame]) {
-        mIv = [[UIImageView alloc] initWithFrame:frame];
+        
+        mIv = [[UIImageView alloc] initWithFrame:self.bounds];
         
         [self addSubview:mIv];
     }
@@ -30,7 +31,7 @@
 
 - (instancetype) initWithFrame:(CGRect)frame imgName:(NSString*) name {
     if (self == [super initWithFrame:frame]) {
-        mIv = [[UIImageView alloc] initWithFrame:frame];
+        mIv = [[UIImageView alloc] initWithFrame:self.bounds];
         [self setImageName:name];
         
         [self addSubview:mIv];
@@ -40,6 +41,8 @@
 }
 
 - (void) setImageName: (NSString*) name {
+//    self.backgroundColor = [UIColor orangeColor];
+    
     UIImage* img = [UIImage imageNamed:name];
     mIv.alpha = 0;
     mIv.image = img;
@@ -59,6 +62,8 @@
         [self removeFromSuperview];
     }];
     
+    // 이런식으로도 쓸 수도 있음 -_ -; 물론 거지 같은 방법이지만 ㅎ
+//    [self performSelector:@selector(removeFromSuperview) withObject:nil afterDelay:0.5];
     
 }
 @end

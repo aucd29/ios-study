@@ -115,7 +115,9 @@
 //    FadeOutView* fov = [[FadeOutView alloc] initWithFrame:self.view.frame
 //                                                  imgName:imgName];
   
-    FadeOutView* fov = [[FadeOutView alloc] initWithFrame:self.view.frame];
+    CGRect rect = CGRectInset(tableView.frame, 50, 100);
+    
+    FadeOutView* fov = [[FadeOutView alloc] initWithFrame:rect];
     [fov setImageName:imgName];
 
     [self.view addSubview:fov];
