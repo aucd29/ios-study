@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    UITextField* mYear;
+    UITextField* mMonth;
+    UITextField* mDay;
+    
+    UITextField* mYMD;
+}
 
 @end
 
