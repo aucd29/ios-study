@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F60ABB4D1D65917C00947C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ABB4C1D65917C00947C00 /* AppDelegate.swift */; };
+		F60ABB4F1D65917C00947C00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ABB4E1D65917C00947C00 /* ViewController.swift */; };
+		F60ABB521D65917C00947C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB501D65917C00947C00 /* Main.storyboard */; };
+		F60ABB541D65917C00947C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB531D65917C00947C00 /* Assets.xcassets */; };
+		F60ABB571D65917C00947C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB551D65917C00947C00 /* LaunchScreen.storyboard */; };
+		F60ABB621D65917C00947C00 /* day02_05_photoSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ABB611D65917C00947C00 /* day02_05_photoSliderTests.swift */; };
+		F60ABB6D1D65917C00947C00 /* day02_05_photoSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ABB6C1D65917C00947C00 /* day02_05_photoSliderUITests.swift */; };
+		F60ABBB51D6591DD00947C00 /* genre-action.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB7B1D6591DD00947C00 /* genre-action.jpg */; };
+		F60ABBB61D6591DD00947C00 /* genre-alternative.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB7C1D6591DD00947C00 /* genre-alternative.jpg */; };
+		F60ABBB71D6591DD00947C00 /* genre-animation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB7D1D6591DD00947C00 /* genre-animation.jpg */; };
+		F60ABBB81D6591DD00947C00 /* genre-blues.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB7E1D6591DD00947C00 /* genre-blues.jpg */; };
+		F60ABBB91D6591DD00947C00 /* genre-books.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB7F1D6591DD00947C00 /* genre-books.jpg */; };
+		F60ABBBA1D6591DD00947C00 /* genre-business.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB801D6591DD00947C00 /* genre-business.jpg */; };
+		F60ABBBB1D6591DD00947C00 /* genre-childrens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB811D6591DD00947C00 /* genre-childrens.jpg */; };
+		F60ABBBC1D6591DD00947C00 /* genre-christian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB821D6591DD00947C00 /* genre-christian.jpg */; };
+		F60ABBBD1D6591DD00947C00 /* genre-classic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB831D6591DD00947C00 /* genre-classic.jpg */; };
+		F60ABBBE1D6591DD00947C00 /* genre-classical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB841D6591DD00947C00 /* genre-classical.jpg */; };
+		F60ABBBF1D6591DD00947C00 /* genre-classics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB851D6591DD00947C00 /* genre-classics.jpg */; };
+		F60ABBC01D6591DD00947C00 /* genre-classicT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB861D6591DD00947C00 /* genre-classicT.jpg */; };
+		F60ABBC11D6591DD00947C00 /* genre-comedy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB871D6591DD00947C00 /* genre-comedy.jpg */; };
+		F60ABBC21D6591DD00947C00 /* genre-country.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB881D6591DD00947C00 /* genre-country.jpg */; };
+		F60ABBC31D6591DD00947C00 /* genre-dance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB891D6591DD00947C00 /* genre-dance.jpg */; };
+		F60ABBC41D6591DD00947C00 /* genre-documentary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB8A1D6591DD00947C00 /* genre-documentary.jpg */; };
+		F60ABBC51D6591DD00947C00 /* genre-drama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB8B1D6591DD00947C00 /* genre-drama.jpg */; };
+		F60ABBC61D6591DD00947C00 /* genre-education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB8C1D6591DD00947C00 /* genre-education.jpg */; };
+		F60ABBC71D6591DD00947C00 /* genre-electronic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB8D1D6591DD00947C00 /* genre-electronic.jpg */; };
+		F60ABBC81D6591DD00947C00 /* genre-engineering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB8E1D6591DD00947C00 /* genre-engineering.jpg */; };
+		F60ABBC91D6591DD00947C00 /* genre-finearts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB8F1D6591DD00947C00 /* genre-finearts.jpg */; };
+		F60ABBCA1D6591DD00947C00 /* genre-folk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB901D6591DD00947C00 /* genre-folk.jpg */; };
+		F60ABBCB1D6591DD00947C00 /* genre-health.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB911D6591DD00947C00 /* genre-health.jpg */; };
+		F60ABBCC1D6591DD00947C00 /* genre-hiphop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB921D6591DD00947C00 /* genre-hiphop.jpg */; };
+		F60ABBCD1D6591DD00947C00 /* genre-history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB931D6591DD00947C00 /* genre-history.jpg */; };
+		F60ABBCE1D6591DD00947C00 /* genre-holiday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB941D6591DD00947C00 /* genre-holiday.jpg */; };
+		F60ABBCF1D6591DD00947C00 /* genre-horror.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB951D6591DD00947C00 /* genre-horror.jpg */; };
+		F60ABBD01D6591DD00947C00 /* genre-humanities.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB961D6591DD00947C00 /* genre-humanities.jpg */; };
+		F60ABBD11D6591DD00947C00 /* genre-independent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB971D6591DD00947C00 /* genre-independent.jpg */; };
+		F60ABBD21D6591DD00947C00 /* genre-jazz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB981D6591DD00947C00 /* genre-jazz.jpg */; };
+		F60ABBD31D6591DD00947C00 /* genre-jpop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB991D6591DD00947C00 /* genre-jpop.jpg */; };
+		F60ABBD41D6591DD00947C00 /* genre-kayokyoku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB9A1D6591DD00947C00 /* genre-kayokyoku.jpg */; };
+		F60ABBD51D6591DD00947C00 /* genre-kids.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB9B1D6591DD00947C00 /* genre-kids.jpg */; };
+		F60ABBD61D6591DD00947C00 /* genre-language.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB9C1D6591DD00947C00 /* genre-language.jpg */; };
+		F60ABBD71D6591DD00947C00 /* genre-latin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB9D1D6591DD00947C00 /* genre-latin.jpg */; };
+		F60ABBD81D6591DD00947C00 /* genre-literature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB9E1D6591DD00947C00 /* genre-literature.jpg */; };
+		F60ABBD91D6591DD00947C00 /* genre-mathematics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABB9F1D6591DD00947C00 /* genre-mathematics.jpg */; };
+		F60ABBDA1D6591DD00947C00 /* genre-music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA01D6591DD00947C00 /* genre-music.jpg */; };
+		F60ABBDB1D6591DD00947C00 /* genre-newage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA11D6591DD00947C00 /* genre-newage.jpg */; };
+		F60ABBDC1D6591DD00947C00 /* genre-nonfiction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA21D6591DD00947C00 /* genre-nonfiction.jpg */; };
+		F60ABBDD1D6591DD00947C00 /* genre-pop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA31D6591DD00947C00 /* genre-pop.jpg */; };
+		F60ABBDE1D6591DD00947C00 /* genre-rb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA41D6591DD00947C00 /* genre-rb.jpg */; };
+		F60ABBDF1D6591DD00947C00 /* genre-reality.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA51D6591DD00947C00 /* genre-reality.jpg */; };
+		F60ABBE01D6591DD00947C00 /* genre-reggae.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA61D6591DD00947C00 /* genre-reggae.jpg */; };
+		F60ABBE11D6591DD00947C00 /* genre-rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA71D6591DD00947C00 /* genre-rock.jpg */; };
+		F60ABBE21D6591DD00947C00 /* genre-romance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA81D6591DD00947C00 /* genre-romance.jpg */; };
+		F60ABBE31D6591DD00947C00 /* genre-science.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBA91D6591DD00947C00 /* genre-science.jpg */; };
+		F60ABBE41D6591DD00947C00 /* genre-scifi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBAA1D6591DD00947C00 /* genre-scifi.jpg */; };
+		F60ABBE51D6591DD00947C00 /* genre-shortfilms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBAB1D6591DD00947C00 /* genre-shortfilms.jpg */; };
+		F60ABBE61D6591DD00947C00 /* genre-socialScience.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBAC1D6591DD00947C00 /* genre-socialScience.jpg */; };
+		F60ABBE71D6591DD00947C00 /* genre-soundtrack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBAD1D6591DD00947C00 /* genre-soundtrack.jpg */; };
+		F60ABBE81D6591DD00947C00 /* genre-spoken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBAE1D6591DD00947C00 /* genre-spoken.jpg */; };
+		F60ABBE91D6591DD00947C00 /* genre-sports.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBAF1D6591DD00947C00 /* genre-sports.jpg */; };
+		F60ABBEA1D6591DD00947C00 /* genre-teens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBB01D6591DD00947C00 /* genre-teens.jpg */; };
+		F60ABBEB1D6591DD00947C00 /* genre-thriller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBB11D6591DD00947C00 /* genre-thriller.jpg */; };
+		F60ABBEC1D6591DD00947C00 /* genre-vocal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBB21D6591DD00947C00 /* genre-vocal.jpg */; };
+		F60ABBED1D6591DD00947C00 /* genre-western.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBB31D6591DD00947C00 /* genre-western.jpg */; };
+		F60ABBEE1D6591DD00947C00 /* genre-world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBB41D6591DD00947C00 /* genre-world.jpg */; };
+		F60ABBF01D65934500947C00 /* PhotoSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ABBEF1D65934500947C00 /* PhotoSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F60ABB5E1D65917C00947C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F60ABB411D65917C00947C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60ABB481D65917C00947C00;
+			remoteInfo = day02_05_photoSlider;
+		};
+		F60ABB691D65917C00947C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F60ABB411D65917C00947C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60ABB481D65917C00947C00;
+			remoteInfo = day02_05_photoSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F60ABB491D65917C00947C00 /* day02_05_photoSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day02_05_photoSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60ABB4C1D65917C00947C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F60ABB4E1D65917C00947C00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F60ABB511D65917C00947C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F60ABB531D65917C00947C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F60ABB561D65917C00947C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F60ABB581D65917C00947C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60ABB5D1D65917C00947C00 /* day02_05_photoSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day02_05_photoSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60ABB611D65917C00947C00 /* day02_05_photoSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day02_05_photoSliderTests.swift; sourceTree = "<group>"; };
+		F60ABB631D65917C00947C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60ABB681D65917C00947C00 /* day02_05_photoSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day02_05_photoSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60ABB6C1D65917C00947C00 /* day02_05_photoSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day02_05_photoSliderUITests.swift; sourceTree = "<group>"; };
+		F60ABB6E1D65917C00947C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60ABB7B1D6591DD00947C00 /* genre-action.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-action.jpg"; path = "day02_05_photoSlider/images/genre-action.jpg"; sourceTree = "<group>"; };
+		F60ABB7C1D6591DD00947C00 /* genre-alternative.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-alternative.jpg"; path = "day02_05_photoSlider/images/genre-alternative.jpg"; sourceTree = "<group>"; };
+		F60ABB7D1D6591DD00947C00 /* genre-animation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-animation.jpg"; path = "day02_05_photoSlider/images/genre-animation.jpg"; sourceTree = "<group>"; };
+		F60ABB7E1D6591DD00947C00 /* genre-blues.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-blues.jpg"; path = "day02_05_photoSlider/images/genre-blues.jpg"; sourceTree = "<group>"; };
+		F60ABB7F1D6591DD00947C00 /* genre-books.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-books.jpg"; path = "day02_05_photoSlider/images/genre-books.jpg"; sourceTree = "<group>"; };
+		F60ABB801D6591DD00947C00 /* genre-business.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-business.jpg"; path = "day02_05_photoSlider/images/genre-business.jpg"; sourceTree = "<group>"; };
+		F60ABB811D6591DD00947C00 /* genre-childrens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-childrens.jpg"; path = "day02_05_photoSlider/images/genre-childrens.jpg"; sourceTree = "<group>"; };
+		F60ABB821D6591DD00947C00 /* genre-christian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-christian.jpg"; path = "day02_05_photoSlider/images/genre-christian.jpg"; sourceTree = "<group>"; };
+		F60ABB831D6591DD00947C00 /* genre-classic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-classic.jpg"; path = "day02_05_photoSlider/images/genre-classic.jpg"; sourceTree = "<group>"; };
+		F60ABB841D6591DD00947C00 /* genre-classical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-classical.jpg"; path = "day02_05_photoSlider/images/genre-classical.jpg"; sourceTree = "<group>"; };
+		F60ABB851D6591DD00947C00 /* genre-classics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-classics.jpg"; path = "day02_05_photoSlider/images/genre-classics.jpg"; sourceTree = "<group>"; };
+		F60ABB861D6591DD00947C00 /* genre-classicT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-classicT.jpg"; path = "day02_05_photoSlider/images/genre-classicT.jpg"; sourceTree = "<group>"; };
+		F60ABB871D6591DD00947C00 /* genre-comedy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-comedy.jpg"; path = "day02_05_photoSlider/images/genre-comedy.jpg"; sourceTree = "<group>"; };
+		F60ABB881D6591DD00947C00 /* genre-country.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-country.jpg"; path = "day02_05_photoSlider/images/genre-country.jpg"; sourceTree = "<group>"; };
+		F60ABB891D6591DD00947C00 /* genre-dance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-dance.jpg"; path = "day02_05_photoSlider/images/genre-dance.jpg"; sourceTree = "<group>"; };
+		F60ABB8A1D6591DD00947C00 /* genre-documentary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-documentary.jpg"; path = "day02_05_photoSlider/images/genre-documentary.jpg"; sourceTree = "<group>"; };
+		F60ABB8B1D6591DD00947C00 /* genre-drama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-drama.jpg"; path = "day02_05_photoSlider/images/genre-drama.jpg"; sourceTree = "<group>"; };
+		F60ABB8C1D6591DD00947C00 /* genre-education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-education.jpg"; path = "day02_05_photoSlider/images/genre-education.jpg"; sourceTree = "<group>"; };
+		F60ABB8D1D6591DD00947C00 /* genre-electronic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-electronic.jpg"; path = "day02_05_photoSlider/images/genre-electronic.jpg"; sourceTree = "<group>"; };
+		F60ABB8E1D6591DD00947C00 /* genre-engineering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-engineering.jpg"; path = "day02_05_photoSlider/images/genre-engineering.jpg"; sourceTree = "<group>"; };
+		F60ABB8F1D6591DD00947C00 /* genre-finearts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-finearts.jpg"; path = "day02_05_photoSlider/images/genre-finearts.jpg"; sourceTree = "<group>"; };
+		F60ABB901D6591DD00947C00 /* genre-folk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-folk.jpg"; path = "day02_05_photoSlider/images/genre-folk.jpg"; sourceTree = "<group>"; };
+		F60ABB911D6591DD00947C00 /* genre-health.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-health.jpg"; path = "day02_05_photoSlider/images/genre-health.jpg"; sourceTree = "<group>"; };
+		F60ABB921D6591DD00947C00 /* genre-hiphop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-hiphop.jpg"; path = "day02_05_photoSlider/images/genre-hiphop.jpg"; sourceTree = "<group>"; };
+		F60ABB931D6591DD00947C00 /* genre-history.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-history.jpg"; path = "day02_05_photoSlider/images/genre-history.jpg"; sourceTree = "<group>"; };
+		F60ABB941D6591DD00947C00 /* genre-holiday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-holiday.jpg"; path = "day02_05_photoSlider/images/genre-holiday.jpg"; sourceTree = "<group>"; };
+		F60ABB951D6591DD00947C00 /* genre-horror.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-horror.jpg"; path = "day02_05_photoSlider/images/genre-horror.jpg"; sourceTree = "<group>"; };
+		F60ABB961D6591DD00947C00 /* genre-humanities.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-humanities.jpg"; path = "day02_05_photoSlider/images/genre-humanities.jpg"; sourceTree = "<group>"; };
+		F60ABB971D6591DD00947C00 /* genre-independent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-independent.jpg"; path = "day02_05_photoSlider/images/genre-independent.jpg"; sourceTree = "<group>"; };
+		F60ABB981D6591DD00947C00 /* genre-jazz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-jazz.jpg"; path = "day02_05_photoSlider/images/genre-jazz.jpg"; sourceTree = "<group>"; };
+		F60ABB991D6591DD00947C00 /* genre-jpop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-jpop.jpg"; path = "day02_05_photoSlider/images/genre-jpop.jpg"; sourceTree = "<group>"; };
+		F60ABB9A1D6591DD00947C00 /* genre-kayokyoku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-kayokyoku.jpg"; path = "day02_05_photoSlider/images/genre-kayokyoku.jpg"; sourceTree = "<group>"; };
+		F60ABB9B1D6591DD00947C00 /* genre-kids.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-kids.jpg"; path = "day02_05_photoSlider/images/genre-kids.jpg"; sourceTree = "<group>"; };
+		F60ABB9C1D6591DD00947C00 /* genre-language.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-language.jpg"; path = "day02_05_photoSlider/images/genre-language.jpg"; sourceTree = "<group>"; };
+		F60ABB9D1D6591DD00947C00 /* genre-latin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-latin.jpg"; path = "day02_05_photoSlider/images/genre-latin.jpg"; sourceTree = "<group>"; };
+		F60ABB9E1D6591DD00947C00 /* genre-literature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-literature.jpg"; path = "day02_05_photoSlider/images/genre-literature.jpg"; sourceTree = "<group>"; };
+		F60ABB9F1D6591DD00947C00 /* genre-mathematics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-mathematics.jpg"; path = "day02_05_photoSlider/images/genre-mathematics.jpg"; sourceTree = "<group>"; };
+		F60ABBA01D6591DD00947C00 /* genre-music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-music.jpg"; path = "day02_05_photoSlider/images/genre-music.jpg"; sourceTree = "<group>"; };
+		F60ABBA11D6591DD00947C00 /* genre-newage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-newage.jpg"; path = "day02_05_photoSlider/images/genre-newage.jpg"; sourceTree = "<group>"; };
+		F60ABBA21D6591DD00947C00 /* genre-nonfiction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-nonfiction.jpg"; path = "day02_05_photoSlider/images/genre-nonfiction.jpg"; sourceTree = "<group>"; };
+		F60ABBA31D6591DD00947C00 /* genre-pop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-pop.jpg"; path = "day02_05_photoSlider/images/genre-pop.jpg"; sourceTree = "<group>"; };
+		F60ABBA41D6591DD00947C00 /* genre-rb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-rb.jpg"; path = "day02_05_photoSlider/images/genre-rb.jpg"; sourceTree = "<group>"; };
+		F60ABBA51D6591DD00947C00 /* genre-reality.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-reality.jpg"; path = "day02_05_photoSlider/images/genre-reality.jpg"; sourceTree = "<group>"; };
+		F60ABBA61D6591DD00947C00 /* genre-reggae.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-reggae.jpg"; path = "day02_05_photoSlider/images/genre-reggae.jpg"; sourceTree = "<group>"; };
+		F60ABBA71D6591DD00947C00 /* genre-rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-rock.jpg"; path = "day02_05_photoSlider/images/genre-rock.jpg"; sourceTree = "<group>"; };
+		F60ABBA81D6591DD00947C00 /* genre-romance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-romance.jpg"; path = "day02_05_photoSlider/images/genre-romance.jpg"; sourceTree = "<group>"; };
+		F60ABBA91D6591DD00947C00 /* genre-science.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-science.jpg"; path = "day02_05_photoSlider/images/genre-science.jpg"; sourceTree = "<group>"; };
+		F60ABBAA1D6591DD00947C00 /* genre-scifi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-scifi.jpg"; path = "day02_05_photoSlider/images/genre-scifi.jpg"; sourceTree = "<group>"; };
+		F60ABBAB1D6591DD00947C00 /* genre-shortfilms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-shortfilms.jpg"; path = "day02_05_photoSlider/images/genre-shortfilms.jpg"; sourceTree = "<group>"; };
+		F60ABBAC1D6591DD00947C00 /* genre-socialScience.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-socialScience.jpg"; path = "day02_05_photoSlider/images/genre-socialScience.jpg"; sourceTree = "<group>"; };
+		F60ABBAD1D6591DD00947C00 /* genre-soundtrack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-soundtrack.jpg"; path = "day02_05_photoSlider/images/genre-soundtrack.jpg"; sourceTree = "<group>"; };
+		F60ABBAE1D6591DD00947C00 /* genre-spoken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-spoken.jpg"; path = "day02_05_photoSlider/images/genre-spoken.jpg"; sourceTree = "<group>"; };
+		F60ABBAF1D6591DD00947C00 /* genre-sports.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-sports.jpg"; path = "day02_05_photoSlider/images/genre-sports.jpg"; sourceTree = "<group>"; };
+		F60ABBB01D6591DD00947C00 /* genre-teens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-teens.jpg"; path = "day02_05_photoSlider/images/genre-teens.jpg"; sourceTree = "<group>"; };
+		F60ABBB11D6591DD00947C00 /* genre-thriller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-thriller.jpg"; path = "day02_05_photoSlider/images/genre-thriller.jpg"; sourceTree = "<group>"; };
+		F60ABBB21D6591DD00947C00 /* genre-vocal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-vocal.jpg"; path = "day02_05_photoSlider/images/genre-vocal.jpg"; sourceTree = "<group>"; };
+		F60ABBB31D6591DD00947C00 /* genre-western.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-western.jpg"; path = "day02_05_photoSlider/images/genre-western.jpg"; sourceTree = "<group>"; };
+		F60ABBB41D6591DD00947C00 /* genre-world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-world.jpg"; path = "day02_05_photoSlider/images/genre-world.jpg"; sourceTree = "<group>"; };
+		F60ABBEF1D65934500947C00 /* PhotoSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSlider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F60ABB461D65917C00947C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60ABB5A1D65917C00947C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60ABB651D65917C00947C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F60ABB401D65917C00947C00 = {
+			isa = PBXGroup;
+			children = (
+				F60ABBEF1D65934500947C00 /* PhotoSlider.swift */,
+				F60ABB7A1D6591D200947C00 /* images */,
+				F60ABB4B1D65917C00947C00 /* day02_05_photoSlider */,
+				F60ABB601D65917C00947C00 /* day02_05_photoSliderTests */,
+				F60ABB6B1D65917C00947C00 /* day02_05_photoSliderUITests */,
+				F60ABB4A1D65917C00947C00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F60ABB4A1D65917C00947C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F60ABB491D65917C00947C00 /* day02_05_photoSlider.app */,
+				F60ABB5D1D65917C00947C00 /* day02_05_photoSliderTests.xctest */,
+				F60ABB681D65917C00947C00 /* day02_05_photoSliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F60ABB4B1D65917C00947C00 /* day02_05_photoSlider */ = {
+			isa = PBXGroup;
+			children = (
+				F60ABB4C1D65917C00947C00 /* AppDelegate.swift */,
+				F60ABB4E1D65917C00947C00 /* ViewController.swift */,
+				F60ABB501D65917C00947C00 /* Main.storyboard */,
+				F60ABB531D65917C00947C00 /* Assets.xcassets */,
+				F60ABB551D65917C00947C00 /* LaunchScreen.storyboard */,
+				F60ABB581D65917C00947C00 /* Info.plist */,
+			);
+			path = day02_05_photoSlider;
+			sourceTree = "<group>";
+		};
+		F60ABB601D65917C00947C00 /* day02_05_photoSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F60ABB611D65917C00947C00 /* day02_05_photoSliderTests.swift */,
+				F60ABB631D65917C00947C00 /* Info.plist */,
+			);
+			path = day02_05_photoSliderTests;
+			sourceTree = "<group>";
+		};
+		F60ABB6B1D65917C00947C00 /* day02_05_photoSliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F60ABB6C1D65917C00947C00 /* day02_05_photoSliderUITests.swift */,
+				F60ABB6E1D65917C00947C00 /* Info.plist */,
+			);
+			path = day02_05_photoSliderUITests;
+			sourceTree = "<group>";
+		};
+		F60ABB7A1D6591D200947C00 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F60ABB7B1D6591DD00947C00 /* genre-action.jpg */,
+				F60ABB7C1D6591DD00947C00 /* genre-alternative.jpg */,
+				F60ABB7D1D6591DD00947C00 /* genre-animation.jpg */,
+				F60ABB7E1D6591DD00947C00 /* genre-blues.jpg */,
+				F60ABB7F1D6591DD00947C00 /* genre-books.jpg */,
+				F60ABB801D6591DD00947C00 /* genre-business.jpg */,
+				F60ABB811D6591DD00947C00 /* genre-childrens.jpg */,
+				F60ABB821D6591DD00947C00 /* genre-christian.jpg */,
+				F60ABB831D6591DD00947C00 /* genre-classic.jpg */,
+				F60ABB841D6591DD00947C00 /* genre-classical.jpg */,
+				F60ABB851D6591DD00947C00 /* genre-classics.jpg */,
+				F60ABB861D6591DD00947C00 /* genre-classicT.jpg */,
+				F60ABB871D6591DD00947C00 /* genre-comedy.jpg */,
+				F60ABB881D6591DD00947C00 /* genre-country.jpg */,
+				F60ABB891D6591DD00947C00 /* genre-dance.jpg */,
+				F60ABB8A1D6591DD00947C00 /* genre-documentary.jpg */,
+				F60ABB8B1D6591DD00947C00 /* genre-drama.jpg */,
+				F60ABB8C1D6591DD00947C00 /* genre-education.jpg */,
+				F60ABB8D1D6591DD00947C00 /* genre-electronic.jpg */,
+				F60ABB8E1D6591DD00947C00 /* genre-engineering.jpg */,
+				F60ABB8F1D6591DD00947C00 /* genre-finearts.jpg */,
+				F60ABB901D6591DD00947C00 /* genre-folk.jpg */,
+				F60ABB911D6591DD00947C00 /* genre-health.jpg */,
+				F60ABB921D6591DD00947C00 /* genre-hiphop.jpg */,
+				F60ABB931D6591DD00947C00 /* genre-history.jpg */,
+				F60ABB941D6591DD00947C00 /* genre-holiday.jpg */,
+				F60ABB951D6591DD00947C00 /* genre-horror.jpg */,
+				F60ABB961D6591DD00947C00 /* genre-humanities.jpg */,
+				F60ABB971D6591DD00947C00 /* genre-independent.jpg */,
+				F60ABB981D6591DD00947C00 /* genre-jazz.jpg */,
+				F60ABB991D6591DD00947C00 /* genre-jpop.jpg */,
+				F60ABB9A1D6591DD00947C00 /* genre-kayokyoku.jpg */,
+				F60ABB9B1D6591DD00947C00 /* genre-kids.jpg */,
+				F60ABB9C1D6591DD00947C00 /* genre-language.jpg */,
+				F60ABB9D1D6591DD00947C00 /* genre-latin.jpg */,
+				F60ABB9E1D6591DD00947C00 /* genre-literature.jpg */,
+				F60ABB9F1D6591DD00947C00 /* genre-mathematics.jpg */,
+				F60ABBA01D6591DD00947C00 /* genre-music.jpg */,
+				F60ABBA11D6591DD00947C00 /* genre-newage.jpg */,
+				F60ABBA21D6591DD00947C00 /* genre-nonfiction.jpg */,
+				F60ABBA31D6591DD00947C00 /* genre-pop.jpg */,
+				F60ABBA41D6591DD00947C00 /* genre-rb.jpg */,
+				F60ABBA51D6591DD00947C00 /* genre-reality.jpg */,
+				F60ABBA61D6591DD00947C00 /* genre-reggae.jpg */,
+				F60ABBA71D6591DD00947C00 /* genre-rock.jpg */,
+				F60ABBA81D6591DD00947C00 /* genre-romance.jpg */,
+				F60ABBA91D6591DD00947C00 /* genre-science.jpg */,
+				F60ABBAA1D6591DD00947C00 /* genre-scifi.jpg */,
+				F60ABBAB1D6591DD00947C00 /* genre-shortfilms.jpg */,
+				F60ABBAC1D6591DD00947C00 /* genre-socialScience.jpg */,
+				F60ABBAD1D6591DD00947C00 /* genre-soundtrack.jpg */,
+				F60ABBAE1D6591DD00947C00 /* genre-spoken.jpg */,
+				F60ABBAF1D6591DD00947C00 /* genre-sports.jpg */,
+				F60ABBB01D6591DD00947C00 /* genre-teens.jpg */,
+				F60ABBB11D6591DD00947C00 /* genre-thriller.jpg */,
+				F60ABBB21D6591DD00947C00 /* genre-vocal.jpg */,
+				F60ABBB31D6591DD00947C00 /* genre-western.jpg */,
+				F60ABBB41D6591DD00947C00 /* genre-world.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F60ABB481D65917C00947C00 /* day02_05_photoSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60ABB711D65917C00947C00 /* Build configuration list for PBXNativeTarget "day02_05_photoSlider" */;
+			buildPhases = (
+				F60ABB451D65917C00947C00 /* Sources */,
+				F60ABB461D65917C00947C00 /* Frameworks */,
+				F60ABB471D65917C00947C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day02_05_photoSlider;
+			productName = day02_05_photoSlider;
+			productReference = F60ABB491D65917C00947C00 /* day02_05_photoSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F60ABB5C1D65917C00947C00 /* day02_05_photoSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60ABB741D65917C00947C00 /* Build configuration list for PBXNativeTarget "day02_05_photoSliderTests" */;
+			buildPhases = (
+				F60ABB591D65917C00947C00 /* Sources */,
+				F60ABB5A1D65917C00947C00 /* Frameworks */,
+				F60ABB5B1D65917C00947C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F60ABB5F1D65917C00947C00 /* PBXTargetDependency */,
+			);
+			name = day02_05_photoSliderTests;
+			productName = day02_05_photoSliderTests;
+			productReference = F60ABB5D1D65917C00947C00 /* day02_05_photoSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F60ABB671D65917C00947C00 /* day02_05_photoSliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60ABB771D65917C00947C00 /* Build configuration list for PBXNativeTarget "day02_05_photoSliderUITests" */;
+			buildPhases = (
+				F60ABB641D65917C00947C00 /* Sources */,
+				F60ABB651D65917C00947C00 /* Frameworks */,
+				F60ABB661D65917C00947C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F60ABB6A1D65917C00947C00 /* PBXTargetDependency */,
+			);
+			name = day02_05_photoSliderUITests;
+			productName = day02_05_photoSliderUITests;
+			productReference = F60ABB681D65917C00947C00 /* day02_05_photoSliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F60ABB411D65917C00947C00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Burke Choi";
+				TargetAttributes = {
+					F60ABB481D65917C00947C00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 354VS2R225;
+					};
+					F60ABB5C1D65917C00947C00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 354VS2R225;
+						TestTargetID = F60ABB481D65917C00947C00;
+					};
+					F60ABB671D65917C00947C00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 354VS2R225;
+						TestTargetID = F60ABB481D65917C00947C00;
+					};
+				};
+			};
+			buildConfigurationList = F60ABB441D65917C00947C00 /* Build configuration list for PBXProject "day02_05_photoSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F60ABB401D65917C00947C00;
+			productRefGroup = F60ABB4A1D65917C00947C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F60ABB481D65917C00947C00 /* day02_05_photoSlider */,
+				F60ABB5C1D65917C00947C00 /* day02_05_photoSliderTests */,
+				F60ABB671D65917C00947C00 /* day02_05_photoSliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F60ABB471D65917C00947C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60ABBBE1D6591DD00947C00 /* genre-classical.jpg in Resources */,
+				F60ABBC51D6591DD00947C00 /* genre-drama.jpg in Resources */,
+				F60ABBDB1D6591DD00947C00 /* genre-newage.jpg in Resources */,
+				F60ABBE01D6591DD00947C00 /* genre-reggae.jpg in Resources */,
+				F60ABBC31D6591DD00947C00 /* genre-dance.jpg in Resources */,
+				F60ABBC91D6591DD00947C00 /* genre-finearts.jpg in Resources */,
+				F60ABBCD1D6591DD00947C00 /* genre-history.jpg in Resources */,
+				F60ABBBA1D6591DD00947C00 /* genre-business.jpg in Resources */,
+				F60ABBBF1D6591DD00947C00 /* genre-classics.jpg in Resources */,
+				F60ABBCF1D6591DD00947C00 /* genre-horror.jpg in Resources */,
+				F60ABBCA1D6591DD00947C00 /* genre-folk.jpg in Resources */,
+				F60ABB571D65917C00947C00 /* LaunchScreen.storyboard in Resources */,
+				F60ABBDC1D6591DD00947C00 /* genre-nonfiction.jpg in Resources */,
+				F60ABBD21D6591DD00947C00 /* genre-jazz.jpg in Resources */,
+				F60ABBDD1D6591DD00947C00 /* genre-pop.jpg in Resources */,
+				F60ABBBB1D6591DD00947C00 /* genre-childrens.jpg in Resources */,
+				F60ABBE41D6591DD00947C00 /* genre-scifi.jpg in Resources */,
+				F60ABB541D65917C00947C00 /* Assets.xcassets in Resources */,
+				F60ABBBD1D6591DD00947C00 /* genre-classic.jpg in Resources */,
+				F60ABBB91D6591DD00947C00 /* genre-books.jpg in Resources */,
+				F60ABBC61D6591DD00947C00 /* genre-education.jpg in Resources */,
+				F60ABBD71D6591DD00947C00 /* genre-latin.jpg in Resources */,
+				F60ABB521D65917C00947C00 /* Main.storyboard in Resources */,
+				F60ABBD11D6591DD00947C00 /* genre-independent.jpg in Resources */,
+				F60ABBB81D6591DD00947C00 /* genre-blues.jpg in Resources */,
+				F60ABBD61D6591DD00947C00 /* genre-language.jpg in Resources */,
+				F60ABBDA1D6591DD00947C00 /* genre-music.jpg in Resources */,
+				F60ABBB51D6591DD00947C00 /* genre-action.jpg in Resources */,
+				F60ABBE81D6591DD00947C00 /* genre-spoken.jpg in Resources */,
+				F60ABBE51D6591DD00947C00 /* genre-shortfilms.jpg in Resources */,
+				F60ABBC01D6591DD00947C00 /* genre-classicT.jpg in Resources */,
+				F60ABBEB1D6591DD00947C00 /* genre-thriller.jpg in Resources */,
+				F60ABBCB1D6591DD00947C00 /* genre-health.jpg in Resources */,
+				F60ABBDF1D6591DD00947C00 /* genre-reality.jpg in Resources */,
+				F60ABBE61D6591DD00947C00 /* genre-socialScience.jpg in Resources */,
+				F60ABBC41D6591DD00947C00 /* genre-documentary.jpg in Resources */,
+				F60ABBBC1D6591DD00947C00 /* genre-christian.jpg in Resources */,
+				F60ABBC71D6591DD00947C00 /* genre-electronic.jpg in Resources */,
+				F60ABBDE1D6591DD00947C00 /* genre-rb.jpg in Resources */,
+				F60ABBB71D6591DD00947C00 /* genre-animation.jpg in Resources */,
+				F60ABBD31D6591DD00947C00 /* genre-jpop.jpg in Resources */,
+				F60ABBE91D6591DD00947C00 /* genre-sports.jpg in Resources */,
+				F60ABBD81D6591DD00947C00 /* genre-literature.jpg in Resources */,
+				F60ABBC21D6591DD00947C00 /* genre-country.jpg in Resources */,
+				F60ABBE71D6591DD00947C00 /* genre-soundtrack.jpg in Resources */,
+				F60ABBC81D6591DD00947C00 /* genre-engineering.jpg in Resources */,
+				F60ABBEA1D6591DD00947C00 /* genre-teens.jpg in Resources */,
+				F60ABBEE1D6591DD00947C00 /* genre-world.jpg in Resources */,
+				F60ABBD41D6591DD00947C00 /* genre-kayokyoku.jpg in Resources */,
+				F60ABBD51D6591DD00947C00 /* genre-kids.jpg in Resources */,
+				F60ABBD91D6591DD00947C00 /* genre-mathematics.jpg in Resources */,
+				F60ABBED1D6591DD00947C00 /* genre-western.jpg in Resources */,
+				F60ABBE31D6591DD00947C00 /* genre-science.jpg in Resources */,
+				F60ABBE11D6591DD00947C00 /* genre-rock.jpg in Resources */,
+				F60ABBC11D6591DD00947C00 /* genre-comedy.jpg in Resources */,
+				F60ABBB61D6591DD00947C00 /* genre-alternative.jpg in Resources */,
+				F60ABBE21D6591DD00947C00 /* genre-romance.jpg in Resources */,
+				F60ABBD01D6591DD00947C00 /* genre-humanities.jpg in Resources */,
+				F60ABBEC1D6591DD00947C00 /* genre-vocal.jpg in Resources */,
+				F60ABBCC1D6591DD00947C00 /* genre-hiphop.jpg in Resources */,
+				F60ABBCE1D6591DD00947C00 /* genre-holiday.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60ABB5B1D65917C00947C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60ABB661D65917C00947C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F60ABB451D65917C00947C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60ABB4F1D65917C00947C00 /* ViewController.swift in Sources */,
+				F60ABBF01D65934500947C00 /* PhotoSlider.swift in Sources */,
+				F60ABB4D1D65917C00947C00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60ABB591D65917C00947C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60ABB621D65917C00947C00 /* day02_05_photoSliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60ABB641D65917C00947C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60ABB6D1D65917C00947C00 /* day02_05_photoSliderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F60ABB5F1D65917C00947C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F60ABB481D65917C00947C00 /* day02_05_photoSlider */;
+			targetProxy = F60ABB5E1D65917C00947C00 /* PBXContainerItemProxy */;
+		};
+		F60ABB6A1D65917C00947C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F60ABB481D65917C00947C00 /* day02_05_photoSlider */;
+			targetProxy = F60ABB691D65917C00947C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F60ABB501D65917C00947C00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60ABB511D65917C00947C00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F60ABB551D65917C00947C00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60ABB561D65917C00947C00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F60ABB6F1D65917C00947C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F60ABB701D65917C00947C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F60ABB721D65917C00947C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = day02_05_photoSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanwha.day02-05-photoSlider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F60ABB731D65917C00947C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = day02_05_photoSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanwha.day02-05-photoSlider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F60ABB751D65917C00947C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = day02_05_photoSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanwha.day02-05-photoSliderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day02_05_photoSlider.app/day02_05_photoSlider";
+			};
+			name = Debug;
+		};
+		F60ABB761D65917C00947C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = day02_05_photoSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanwha.day02-05-photoSliderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day02_05_photoSlider.app/day02_05_photoSlider";
+			};
+			name = Release;
+		};
+		F60ABB781D65917C00947C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = day02_05_photoSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanwha.day02-05-photoSliderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = day02_05_photoSlider;
+			};
+			name = Debug;
+		};
+		F60ABB791D65917C00947C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = day02_05_photoSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanwha.day02-05-photoSliderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = day02_05_photoSlider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F60ABB441D65917C00947C00 /* Build configuration list for PBXProject "day02_05_photoSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60ABB6F1D65917C00947C00 /* Debug */,
+				F60ABB701D65917C00947C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60ABB711D65917C00947C00 /* Build configuration list for PBXNativeTarget "day02_05_photoSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60ABB721D65917C00947C00 /* Debug */,
+				F60ABB731D65917C00947C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F60ABB741D65917C00947C00 /* Build configuration list for PBXNativeTarget "day02_05_photoSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60ABB751D65917C00947C00 /* Debug */,
+				F60ABB761D65917C00947C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F60ABB771D65917C00947C00 /* Build configuration list for PBXNativeTarget "day02_05_photoSliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60ABB781D65917C00947C00 /* Debug */,
+				F60ABB791D65917C00947C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F60ABB411D65917C00947C00 /* Project object */;
+}
