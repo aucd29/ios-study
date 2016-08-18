@@ -73,6 +73,7 @@
 		F60ABBED1D6591DD00947C00 /* genre-western.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBB31D6591DD00947C00 /* genre-western.jpg */; };
 		F60ABBEE1D6591DD00947C00 /* genre-world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F60ABBB41D6591DD00947C00 /* genre-world.jpg */; };
 		F60ABBF01D65934500947C00 /* PhotoSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ABBEF1D65934500947C00 /* PhotoSlider.swift */; };
+		F60ABBF21D659F4200947C00 /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ABBF11D659F4200947C00 /* ScaleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +166,7 @@
 		F60ABBB31D6591DD00947C00 /* genre-western.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-western.jpg"; path = "day02_05_photoSlider/images/genre-western.jpg"; sourceTree = "<group>"; };
 		F60ABBB41D6591DD00947C00 /* genre-world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "genre-world.jpg"; path = "day02_05_photoSlider/images/genre-world.jpg"; sourceTree = "<group>"; };
 		F60ABBEF1D65934500947C00 /* PhotoSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSlider.swift; sourceTree = "<group>"; };
+		F60ABBF11D659F4200947C00 /* ScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 		F60ABB401D65917C00947C00 = {
 			isa = PBXGroup;
 			children = (
+				F60ABBF11D659F4200947C00 /* ScaleView.swift */,
 				F60ABBEF1D65934500947C00 /* PhotoSlider.swift */,
 				F60ABB7A1D6591D200947C00 /* images */,
 				F60ABB4B1D65917C00947C00 /* day02_05_photoSlider */,
@@ -503,6 +506,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60ABB4F1D65917C00947C00 /* ViewController.swift in Sources */,
+				F60ABBF21D659F4200947C00 /* ScaleView.swift in Sources */,
 				F60ABBF01D65934500947C00 /* PhotoSlider.swift in Sources */,
 				F60ABB4D1D65917C00947C00 /* AppDelegate.swift in Sources */,
 			);

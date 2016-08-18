@@ -41,13 +41,19 @@ class PhotoSlider: UIView {
         frame.origin.x = margin;
         
         for name in names {
-            let iv = UIImageView(frame: frame);
-            iv.contentMode = .ScaleAspectFit;
-            iv.image = UIImage(named: name as! String);
+//            let iv = UIImageView(frame: frame);
+//            iv.contentMode = .ScaleAspectFit;
+//            iv.image = UIImage(named: name as! String);
+            
+            let iv = ScaleView(frame: frame);
+            iv.setImage(UIImage(named: name as! String)!);
             
             scroll.addSubview(iv);
 //            frame.origin.x += frame.size.width;
             frame.origin.x += cx;
         }
     }
+
 }
+
+//

@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 //    var mGenres: NSArray;
+    var mScaleView : ScaleView? = nil;
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,11 +78,19 @@ class ViewController: UIViewController {
         let ps = PhotoSlider(frame: self.view.bounds);
         ps.setImageNames(genres);
         
+        mScaleView = ScaleView(frame: self.view.bounds);
+        
         self.view.addSubview(ps);
+        
     }
 
 //    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
 //        <#code#>
+//    }
+    
+//    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+//        
+//        
 //    }
 
 
