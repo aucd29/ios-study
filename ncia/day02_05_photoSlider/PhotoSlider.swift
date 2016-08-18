@@ -11,7 +11,7 @@ import UIKit
 class PhotoSlider: UIView {
     let scroll = UIScrollView();
 //    var names: NSArray? = nil;
-    let margin: CGFloat = 40;
+    let margin: CGFloat = 5;
 
     override init(frame: CGRect) {
         super.init(frame: frame);

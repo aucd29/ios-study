@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 //    var mGenres: NSArray;
-    var mScaleView : ScaleView? = nil;
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,13 +74,27 @@ class ViewController: UIViewController {
         "genre-western.jpg",
         "genre-world.jpg"];
         
-        let ps = PhotoSlider(frame: self.view.bounds);
-        ps.setImageNames(genres);
+//        let ps = PhotoSlider(frame: self.view.bounds);
+//        ps.setImageNames(genres);
+//        
+//        self.view.addSubview(ps);
         
-        mScaleView = ScaleView(frame: self.view.bounds);
+        let ps = PhotoSlider(frame: CGRectMake(50, 100, 100, 100));
+        ps.setImageNames(genres);
         
         self.view.addSubview(ps);
         
+        let ps2 = PhotoSlider(frame: CGRectMake(50, 300, 200, 200));
+        ps.setImageNames(genres);
+        
+        self.view.addSubview(ps2);
+
+        
+        // --
+        
+        for i in 0 ..< genres.count {
+            print(genres[i])
+        }
     }
 
 //    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
