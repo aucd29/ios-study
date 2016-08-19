@@ -30,7 +30,7 @@
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
-        cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row]; // 재사용 증명을 위한 코드 
+        cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row]; // 재사용 증명을 위한 코드
     }
     
     cell.detailTextLabel.text = [NSString stringWithFormat:@"subtitle %ld", indexPath.row];
